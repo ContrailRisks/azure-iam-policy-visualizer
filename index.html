@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Azure IAM Policy Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Include vis.js CDN -->
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+  <div id="input-area">
+    <h2>Paste Azure IAM Policy JSON</h2>
+    <textarea id="policy-input" placeholder="Paste your Azure IAM policy JSON here..."></textarea>
+    <div id="error-message"></div>
+  </div>
+  <div id="graph-area">
+    <h2>Graph Visualization</h2>
+    <div id="network"></div>
+    <button id="download-btn">Download Graph as Image</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
