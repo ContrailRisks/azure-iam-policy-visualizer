@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+#input-area, #graph-area {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+#input-area {
+  width: 40%;
+  overflow: auto;
+  border-right: 1px solid #ccc;
+}
+
+#graph-area {
+  width: 60%;
+  overflow: auto;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+textarea {
+  width: 100%;
+  height: calc(100% - 60px);
+  padding: 10px;
+  font-family: monospace;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+#error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+#network {
+  width: 100%;
+  height: calc(100% - 60px);
+  border: 1px solid lightgray;
+}
+
+#download-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
